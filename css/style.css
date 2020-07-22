@@ -1,0 +1,41 @@
+/* ¿Qué busca? */
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+html { 
+    background: url('../assets/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+section {
+    text-align: center;
+    margin-top: 17%;
+}
+
+img{
+    width: 27%;
+}
+.title{
+    font-weight: bold;
+    font-size: 90%;
+    font-weight: 800;
+    letter-spacing: 12;
+}
+footer{
+    text-align: center;
+    font-size: 12px ;
+    text-align: center;
+    margin-top: 17%;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 50%;
+    }
+  }
